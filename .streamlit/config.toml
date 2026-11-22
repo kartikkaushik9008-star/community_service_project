@@ -1,0 +1,31 @@
+[theme]
+base = "dark"
+primaryColor = "#0e7490"
+backgroundColor = "#0b111b"
+secondaryBackgroundColor = "#131d2b"
+textColor = "#e7edf7"
+borderColor = "#29374b"
+font = "sans serif"
+headingFont = "sans serif"
+baseRadius = "12px"
+buttonRadius = "10px"
+paddingTop = "1.25rem"
+paddingBottom = "2rem"
+chartCategoricalColors = ["#65ddeb", "#a98bff", "#61a6e8", "#f0aa68", "#7bc9a4", "#e679a8", "#9aa9bd"]
+chartSequentialColors = ["#111827", "#1a2c41", "#24425e", "#2d5a78", "#367393", "#408eaa", "#4ba9c0", "#55c4d5", "#61ddeb", "#8ef2f5"]
+chartDivergingColors = ["#553d8d", "#66509c", "#7965aa", "#8d7bb8", "#a291c6", "#91a4cc", "#779fc7", "#5e9ac1", "#4595bb", "#2d91b5"]
+showSidebarBorder = false
+
+[server]
+port = 8501
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[runner]
+magicEnabled = true
+fastReruns = true

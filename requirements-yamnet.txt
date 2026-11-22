@@ -1,0 +1,3 @@
+# Optional YAMNet backend only; install after the core requirements.
+tensorflow>=2.12
+tensorflow-hub>=0.15
